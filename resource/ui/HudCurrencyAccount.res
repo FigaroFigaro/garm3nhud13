@@ -5,9 +5,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
-		"xpos"			"11"
-		"ypos"			"0"
+		"fgcolor"		"Garm3nMenu"
+		"xpos"			"10"
+		"ypos"			"-15"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"45"
@@ -24,32 +24,17 @@
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"-15"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"45"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}	
 	
 	"WhiteBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"26"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"TanLight"
-	}	
-	
-	"GreenBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WhiteBG"
@@ -61,6 +46,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CreditsGreen"
+		"bgcolor_override"	"255 255 255 192"
 	}
 }

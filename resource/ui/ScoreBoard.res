@@ -496,6 +496,7 @@
 			"ypos"			"r138"
 			"visible"	"1"
 			"fgcolor_override"		"Garm3nMenu"
+			"textAlignment"	"center"
 		}
 	}
 	"ServerTimeLeft" 
