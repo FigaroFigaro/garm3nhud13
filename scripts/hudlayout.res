@@ -1,24 +1,8 @@
 "Resource/HudLayout.res"
 {
-
-	"DaggerCrosshair"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"	 	"DaggerCrosshair"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-		"xpos"			"c-27"
-		"ypos"			"c-43"
-		"wide"			"50"
-		"tall"			"50"
-		"image"		"replay/thumbnails/dagger"
-		"scaleImage"	"1"
-	}
-
 	/////DEFAULT CROSSHAIR START/////
 
-	FogsCrosshairs
+	"FogsCrosshairs"
 	{
 		"controlName" "CExLabel"
 		"fieldName" "FogsCrosshairs"
@@ -54,6 +38,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
+	
 	"CrossHairNormal"
 	{
 		"controlName"	"CExLabel"
@@ -123,6 +108,119 @@
 	}
 
 	/////DEFAULT CROSSHAIR END/////
+
+
+
+
+
+	/////ANIMATED CROSSHAIR START/////
+
+	"FogsCrosshairsAnimated"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "FogsCrosshairsAnimated"
+		"visible" "0"
+		"enabled" "1"
+		"zpos" "2"
+
+		"xpos"	"c-16"
+		"ypos"	"c-16"
+		"wide"	"32"
+		"tall"	"32"
+
+		"font" "FogsCrosshairs"
+		"labelText" "0"
+		"textAlignment" "center"
+
+		"fgcolor" "255 255 255 255"
+	}
+
+	"xHairDotAnimated"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairDotAnimated"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"2"
+		"xpos"			"c-16"
+		"ypos"			"c-16"
+		"wide"			"32"
+		"tall"			"32"
+		"font"			"xHairDot"
+		"labelText"		"L"	
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}
+
+	"CrossHairNormalAnimated"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairNormalAnimated"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+		"xpos"			"c-12"
+		"ypos"			"c-15"
+		"wide"			"24"
+		"tall"			"25"
+		"font"			"CrossHairNormal"
+		"labelText"		"+"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}
+
+	"CrossHairRequestAnimated"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairRequestAnimated"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"1"
+		"xpos"			"c-11"
+		"ypos"			"c-11"
+		"wide"			"21"
+		"tall"			"21"
+		"font"			"CrossHairRequest"
+		"labelText"		"+"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}
+
+	"CrossHairCircleAnimated"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairCircleAnimated"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"2"
+		"xpos"			"c-17"
+		"ypos"			"c-16"
+		"wide"			"34"
+		"tall"			"32"
+		"font"			"CrossHairCircle"
+		"labelText"		"i"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"	
+	}
+
+	"CrossHairDotOutlineAnimated"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairDotOutlineAnimated"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+		"xpos"			"c-4"
+		"ypos"			"c-3"
+		"wide"			"8"
+		"tall"			"7"
+		"font"			"CrossHairDotOutline"
+		"labelText"		"+"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}
+
+	/////ANIMATED CROSSHAIR END/////
 
 
 
