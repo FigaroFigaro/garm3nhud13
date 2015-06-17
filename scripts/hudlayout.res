@@ -38,7 +38,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	
+
 	"CrossHairNormal"
 	{
 		"controlName"	"CExLabel"
@@ -60,7 +60,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairRequest"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 		"xpos"			"c-11"
@@ -173,7 +173,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairRequestAnimated"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 		"xpos"			"c-11"
