@@ -60,7 +60,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairRequest"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 		"xpos"			"c-11"
