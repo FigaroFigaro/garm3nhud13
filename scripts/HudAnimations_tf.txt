@@ -482,11 +482,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	        FgColor		"Garm3nWhite"		Linear 0.0 0.1
-	Animate	ChargeLabel 	        FgColor		"Blank"		                Linear 0.3 0.4
+	Animate	ChargeLabel 	        FgColor		"Garm3nPlus"		Linear 0.0 0.1
+	Animate	ChargeLabel 	        FgColor		"Garm3nGreen"		                Linear 0.3 0.4
 
-	Animate	ChargeMeter 	        FgColor		"Garm3nWhite"		Linear 0.0 0.1
-	Animate	ChargeMeter 	        FgColor		"Blank"		                Linear 0.3 0.4
+	Animate	ChargeMeter 	        FgColor		"Garm3nPlus"		Linear 0.0 0.1
+	Animate	ChargeMeter 	        FgColor		"Garm3nGreen"		                Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
