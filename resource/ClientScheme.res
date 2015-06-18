@@ -2426,6 +2426,17 @@ Scheme
 			}
 		}
 
+		"Arrows30"
+		{
+			"1"
+			{
+				"name"		"Arrows tfb"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
 		"Arrows15"
 		{
 			"1"
