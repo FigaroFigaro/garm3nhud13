@@ -1,0 +1,9 @@
+name=Garm3nHud Sdx-2013
+desc=A HUD that is pretty cool.
+creator=Garm3n
+steamid= 76561198055851555
+url=https://github.com/FigaroFigaro/garm3nhud13
+url=http://www.teamfortress.tv/thread/10940/garm3nhud
+url=https://steamcommunity.com/groups/Garm3nHUD
+version=0.14
+update_url=https://github.com/FigaroFigaro/garm3nhud13/archive/master.zip
