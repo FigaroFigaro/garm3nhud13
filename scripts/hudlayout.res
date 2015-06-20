@@ -22,6 +22,26 @@
 		"fgcolor" "255 255 255 255"
 	}
 
+	"yahudCrosshairs"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "yahudCrosshairs"
+		"visible" "0"
+		"enabled" "1"
+		"zpos" "2"
+
+		"xpos"	"c-16"
+		"ypos"	"c-16"
+		"wide"	"32"
+		"tall"	"32"
+
+		"font" "yahudCrosshairs"
+		"labelText" "f"
+		"textAlignment" "center"
+
+		"fgcolor" "255 255 255 255"
+	}
+
 	"xHairDot"
 	{
 		"controlName"	"CExLabel"
@@ -60,7 +80,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairRequest"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"-5"
 		"xpos"			"c-11"

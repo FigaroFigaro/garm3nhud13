@@ -2501,6 +2501,19 @@ Scheme
 				"weight"	"0"
 				"additive"	"0"
 				"outline" "1"
+				"antialias"	"1"
+			}
+		}
+		"yahudCrosshairs"
+		{
+			"1"
+			{
+				"name"		"Crosshair"
+				"tall"		"20"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -5800,59 +5813,63 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/fonts/symbol.ttf"
+			"font" "resource/fonts/Symbols/symbol.ttf"
 			"name" "symbol"
 		}
 		"8" 
 		{
-			"font" "resource/fonts/FORMASGE.ttf"
+			"font" "resource/fonts/Crosshairs/FORMASGE.ttf"
 			"name" "FORMASGE"
 		}
 		"9" 
 		{
-			"font" "resource/fonts/Paula.ttf"
+			"font" "resource/fonts/Symbols/Paula.ttf"
 			"name" "Paula"
 		}
 		"10" 
 		{
-			"font" "resource/fonts/Novecentowide-DemiBold.otf"
+			"font" "resource/fonts/Novecento/Novecentowide-DemiBold.otf"
 			"name" "Novecentowide-DemiBold"
 		}
 		"11" 
 		{
-			"font" "resource/fonts/Novecentowide-Medium.otf"
+			"font" "resource/fonts/Novecento/Novecentowide-Medium.otf"
 			"name" "Novecentowide-Medium"
 		}
 		"12" 
 		{
-			"font" "resource/fonts/Novecentowide-Book.otf"
+			"font" "resource/fonts/Novecento/Novecentowide-Book.otf"
 			"name" "Novecentowide-Book"
 		}
 		"13" 
 		{
-			"font" "resource/fonts/NovecentoNumbersBold.otf"
+			"font" "resource/fonts/Novecento/NovecentoNumbersBold.otf"
 			"name" "NovecentoNumbersBold"
 		}
 		"14" 
 		{
-			"font"
-"resource/fonts/NovecentoNumbersMedium.otf"
+			"font" "resource/fonts/Novecento/NovecentoNumbersMedium.otf"
 			"name" "NovecentoNumbersMedium"
 		}
 		"15" 
 		{
-			"font" "resource/fonts/NovecentoNumbersBook.otf"
+			"font" "resource/fonts/Novecento/NovecentoNumbersBook.otf"
 			"name" "NovecentoNumbersBook"
 		}
 		"16" 
 		{
-			"font" "resource/fonts/Arrows.ttf"
+			"font" "resource/fonts/Symbols/Arrows.ttf"
 			"name" "Arrows tfb"
 		}
 		"17" 
 		{
-			"font" "resource/fonts/fogs_crosshairs.ttf"
+			"font" "resource/fonts/Crosshairs/fogs_crosshairs.ttf"
 			"name" "Crosshairs Regular"
-		}				
+		}	
+		"18" 
+		{
+			"font" "resource/fonts/Crosshairs/yahud_crosshairs.ttf"
+			"name" "Crosshair"
+		}			
 	}
 }
