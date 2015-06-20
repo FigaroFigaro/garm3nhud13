@@ -452,28 +452,6 @@
 			"visible"		"0"
 		}
 	}
-	"VSLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"VSLabel"
-		"font"			"Arrows15"
-		"labelText"		"C"
-		"textAlignment"	"center"
-		"xpos"			"c-9"
-		"ypos"			"r356"
-		"zpos"			"5"
-		"wide"			"20"
-		"tall"			"19"
-		"visible"		"0"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"fgcolor"		"Garm3nMenu"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"ServerLabel"
 	{
 		"ControlName"	"CExLabel"
