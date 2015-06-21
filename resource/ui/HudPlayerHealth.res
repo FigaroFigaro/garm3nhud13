@@ -47,7 +47,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999" // 37	
+		"xpos"			"37" // 37	
 		"ypos"			"128" 	
 		"zpos"			"2"
 		"wide"			"62"	
@@ -56,22 +56,6 @@
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
-	}
-	"HealthBG"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"HealthBG"
-		"xpos"			"16"
-		"ypos"			"133"	
-		"zpos"			"4"
-		"wide"			"103"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"				"999999"
-		"defaultbgcolor_override"	"Blank"
 	}
 	"PlayerStatusHealthValue"
 	{
