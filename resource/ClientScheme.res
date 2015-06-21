@@ -36,7 +36,7 @@ Scheme
 		"Garm3nCharge"			"42 79 134 255"
 		"Garm3nDamage"			"255 185 0 255"
 		"Garm3nHealth"			"255 255 255 255"
-		"Garm3nLow"			"207 19 20 255"
+		"Garm3nLow"			"255 185 0 255"
 		"Garm3nMenuBG"			"0 0 0 125"
 		"Garm3nLabelsBG"		"0 0 0 125"
 		"Garm3nMenu"			"31 33 35 255"
@@ -2423,28 +2423,6 @@ Scheme
 				"additive"		"0"
 				"antialias"	"1"
 				"outline"		"1"
-			}
-		}
-
-		"Arrows30"
-		{
-			"1"
-			{
-				"name"		"Arrows tfb"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"Arrows15"
-		{
-			"1"
-			{
-				"name"		"Arrows tfb"
-				"tall"		"15"
-				"weight"	"0"
-				"antialias"	"1"
 			}
 		}
 
@@ -5858,15 +5836,10 @@ Scheme
 		}
 		"16" 
 		{
-			"font" "resource/fonts/Symbols/Arrows.ttf"
-			"name" "Arrows tfb"
-		}
-		"17" 
-		{
 			"font" "resource/fonts/Crosshairs/fogs_crosshairs.ttf"
 			"name" "Crosshairs Regular"
 		}	
-		"18" 
+		"17" 
 		{
 			"font" "resource/fonts/Crosshairs/yahud_crosshairs.ttf"
 			"name" "Crosshair"

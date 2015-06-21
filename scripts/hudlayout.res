@@ -155,6 +155,26 @@
 		"fgcolor" "255 255 255 255"
 	}
 
+	"yahudCrosshairsAnimated"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "yahudCrosshairsAnimated"
+		"visible" "0"
+		"enabled" "1"
+		"zpos" "2"
+
+		"xpos"	"c-16"
+		"ypos"	"c-16"
+		"wide"	"32"
+		"tall"	"32"
+
+		"font" "yahudCrosshairs"
+		"labelText" "f"
+		"textAlignment" "center"
+
+		"fgcolor" "255 255 255 255"
+	}
+
 	"xHairDotAnimated"
 	{
 		"controlName"	"CExLabel"

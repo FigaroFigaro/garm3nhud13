@@ -103,11 +103,11 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"r216"
-		"ypos"			"r75"
-		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"15"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -125,7 +125,7 @@
 		"armedbgcolor_override"		"Garm3nPlus"
 		"defaultfgcolor_override"		"White"
 		"armedfgcolor_override"			"Garm3nMenu"
-		"font"			"Arrows15"
+		"font"			""
 	}	
 
 	"ok_hint"

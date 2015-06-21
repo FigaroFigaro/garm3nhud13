@@ -204,16 +204,13 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	HealthBG  BgColor		"Garm3nPlus"	        Accel 0.0 0.0
-    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		        Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
 
+	Animate	PlayerStatusHealthValue 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
-
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
-
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Garm3nPlus"                  Accel 0.0 0.0
-
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -221,6 +218,7 @@ event HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 0.0
+	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
 	RunEvent PlayerStatusHealthValueSpec 0.0
 	RunEvent PlayerStatusHealthValueTour 0.0
@@ -230,12 +228,12 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	StopEvent PlayerStatusHealthValue 0.0
 	StopEvent PlayerStatusHealthValueCam 0.0
 	StopEvent PlayerStatusHealthValueSpec 0.0
 	StopEvent PlayerStatusHealthValueTour 0.0
 
-	Animate	HealthBG  BgColor		"Blank"	        Accel 0.0 0.0
-    Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
+				Animate PlayerStatusHealthValue 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
 
                 Animate PlayerStatusHealthValueCam 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
 
@@ -249,16 +247,13 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	HealthBG  BgColor		"Garm3nLow"	        Accel 0.0 0.0
-    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		         Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
 
+	Animate	PlayerStatusHealthValue 	FgColor		"Garm3nLow"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nLow"	         Accel 0.0 0.0
-
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"Garm3nLow"	         Accel 0.0 0.0
-
 	Animate	PlayerStatusHealthValueTour 	                FgColor		"Garm3nLow"	         Accel 0.0 0.0
-
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
@@ -266,6 +261,7 @@ event HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
 	RunEvent HudHealthDyingPulse 0.0
+	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
 	RunEvent PlayerStatusHealthValueSpec 0.0
 	RunEvent PlayerStatusHealthValueTour 0.0
@@ -275,18 +271,18 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
+	StopEvent PlayerStatusHealthValue 0.0
 	StopEvent PlayerStatusHealthValueCam 0.0
 	StopEvent PlayerStatusHealthValueSpec 0.0
 	StopEvent PlayerStatusHealthValueTour 0.0
 
-	Animate	HealthBG  BgColor		"Blank"	        Accel 0.0 0.0
-    Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
+					Animate	PlayerStatusHealthValue	FgColor		"Garm3nHealth"               Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nWhite"               Accel 0.0 0.0
+					Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nWhite"               Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueSpec 	FgColor		"Garm3nWhite"	         Accel 0.0 0.0
+					Animate	PlayerStatusHealthValueSpec 	FgColor		"Garm3nWhite"	         Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueTour 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
+					Animate	PlayerStatusHealthValueTour 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
 }
 
 //===========================================
@@ -790,12 +786,16 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	Animate xHairDot  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
+	Animate yahudCrosshairsAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
+	Animate FogsCrosshairsAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
+	Animate xHairDotAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairNormalAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairRequestAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairCircleAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairDotOutlineAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 
+	Animate yahudCrosshairsAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
+	Animate FogsCrosshairsAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
 	Animate xHairDotAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
 	Animate CrossHairNormalAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
 	Animate CrossHairRequestAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
