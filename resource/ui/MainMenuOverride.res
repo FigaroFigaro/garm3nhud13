@@ -173,7 +173,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
+		"image"			"../console/background_upward"
 		"scaleImage"	"1"
 		
 		if_halloween_0
@@ -237,6 +237,41 @@
 		"scaleImage"	"1"
 	}	
 	
+	"WelcomeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"	"WelcomeLabel"
+		"font"	"Medium10"
+		"labelText"	"#WelcomeBack"
+		"textAlignment"	"east"
+		"xpos"	"r100"
+		"ypos"	"0"
+		"wide"	"110"
+		"tall"	"20"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+		"fgcolor_override" "hudwhite"
+		"centerwrap" "1"
+	}
+
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"	"AvatarImage"
+		"xpos"	"r40"
+		"ypos"	"20"
+		"zpos"	"0"
+		"wide"	"30"
+		"tall"	"30"
+		"visible"	"1"
+		"enabled"	"1"
+		"image"	""
+		"scaleImage"	"1"
+		"color_outline"	"hudyellow"
+	}
+
 	"TFCharacterImage"
 	{
 		"ControlName"	"ImagePanel"
