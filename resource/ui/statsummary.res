@@ -48,7 +48,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"stamp_background_map"
+			"image"			"console/background_upward"
 			"scaleImage"		"1"
 		}
 
