@@ -62,7 +62,7 @@
 
 	"BlueBG"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BlueBG"
 		"xpos"			"c-61"
 		"ypos"			"r26"
@@ -73,16 +73,21 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"				"999999"
-		"defaultbgcolor_override"	"72 107 141 255"
+		"image"		"../hud/color_panel_blu"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"18"			
+		"src_corner_width"		"18"
+			
+		"draw_corner_width"		"3"			
+		"draw_corner_height" 	"3"
 	}
 
 	"RedBG"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RedBG"
-		"xpos"			"c16"
+		"xpos"			"c15"
 		"ypos"			"r26"
 		"zpos"			"-1"
 		"wide"			"46"
@@ -91,9 +96,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"				"999999"
-		"defaultbgcolor_override"	"183 57 57 255"
+		"image"		"../hud/color_panel_red"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"18"			
+		"src_corner_width"		"18"
+			
+		"draw_corner_width"		"3"			
+		"draw_corner_height" 	"3"
 	}
 	
 	"ActiveTimerBG"
