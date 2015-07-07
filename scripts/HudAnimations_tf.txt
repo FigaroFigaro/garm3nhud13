@@ -207,9 +207,10 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		        Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
 
+	Animate	HealthBGSpec 	BgColor		"Garm3nPlus"	        Accel 0.0 0.0
+	
 	Animate	PlayerStatusHealthValue 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Garm3nPlus"                  Accel 0.0 0.0
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -217,27 +218,27 @@ event HudHealthBonusPulse
 // call to loop HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
+	RunEvent HealthBGSpec 0.0
 	RunEvent HudHealthBonusPulse 0.0
 	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
-	RunEvent PlayerStatusHealthValueSpec 0.0
 	RunEvent PlayerStatusHealthValueTour 0.0
 }
 
 event HudHealthBonusPulseStop
 {
+	StopEvent HealthBGSpec 0.0
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	StopEvent PlayerStatusHealthValue 0.0
 	StopEvent PlayerStatusHealthValueCam 0.0
-	StopEvent PlayerStatusHealthValueSpec 0.0
 	StopEvent PlayerStatusHealthValueTour 0.0
+
+				Animate HealthBGSpec 	                BgColor		"Garm3nBlack"	         Accel 0.0 0.0
 
 				Animate PlayerStatusHealthValue 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
 
                 Animate PlayerStatusHealthValueCam 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
-
-                Animate PlayerStatusHealthValueSpec 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
 
                 Animate PlayerStatusHealthValueTour 	                FgColor		"Garm3nWhite"	         Accel 0.0 0.0
 }
@@ -250,9 +251,10 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		         Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
 
+	Animate	HealthBGSpec 	BgColor		"Garm3nLow"	         Accel 0.0 0.0
+
 	Animate	PlayerStatusHealthValue 	FgColor		"Garm3nLow"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nLow"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec 	FgColor		"Garm3nLow"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour 	                FgColor		"Garm3nLow"	         Accel 0.0 0.0
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -260,23 +262,23 @@ event HudHealthDyingPulse
 // call to loop HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
+	RunEvent HealthBGSpec 0.0
 	RunEvent HudHealthDyingPulse 0.0
 	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
-	RunEvent PlayerStatusHealthValueSpec 0.0
 	RunEvent PlayerStatusHealthValueTour 0.0
 }
 
 event HudHealthDyingPulseStop
 {
+	StopEvent HealthBGSpec 0.0
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	StopEvent PlayerStatusHealthValue 0.0
 	StopEvent PlayerStatusHealthValueCam 0.0
-	StopEvent PlayerStatusHealthValueSpec 0.0
 	StopEvent PlayerStatusHealthValueTour 0.0
 
-					Animate	PlayerStatusHealthValue	FgColor		"Garm3nHealth"               Accel 0.0 0.0
+					Animate	HealthBGSpec	BgColor		"Blank"               Accel 0.0 0.0
 
 					Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nWhite"               Accel 0.0 0.0
 

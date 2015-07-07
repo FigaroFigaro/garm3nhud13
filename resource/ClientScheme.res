@@ -44,7 +44,7 @@ Scheme
 		"Garm3nMeter"			"255 255 255 255"
 		"Garm3nArmedText"		"0 175 255 255"
 
-		"Garm3nPlus"			"160 205 25 255" // Boosted Health Color
+		"Garm3nPlus"			"25 150 185 255" // Boosted Health Color
 
 		"Garm3nTarget"			"255 255 255 255"
 
@@ -525,7 +525,7 @@ Scheme
 			"4"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"tall"		"4"
 				"antialias"	"1"
 			}
 			"5"
@@ -548,31 +548,31 @@ Scheme
 			"1"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"tall"		"6"
 				"antialias" 	"1"
 			}
 			"2"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"tall"		"6"
 				"antialias" 	"1"
 			}
 			"3"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"tall"		"6"
 				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"tall"		"6"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"tall"		"6"
 				"antialias"	"1"
 			}
 		}

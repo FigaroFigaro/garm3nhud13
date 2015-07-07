@@ -1,5 +1,18 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+	"HealthBGSpec"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HealthBGSpec"
+		"xpos"			"0"
+		"ypos"			"11"
+		"zpos"			"4"
+		"wide"			"30"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor"		"Blank"
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -63,7 +76,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
-		"xpos"			"-22"
+		"xpos"			"-20"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"69"
@@ -84,7 +97,7 @@
 		"zpos"			"4"
 		"wide"			"69"
 		"tall"			"32"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
