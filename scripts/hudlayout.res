@@ -2,10 +2,10 @@
 {
 	/////DEFAULT CROSSHAIR START/////
 
-	"FogsCrosshairs"
+	"KnucklesCrosshairs"
 	{
 		"controlName" "CExLabel"
-		"fieldName" "FogsCrosshairs"
+		"fieldName" "Knuckles Crosshairs"
 		"visible" "0"
 		"enabled" "1"
 		"zpos" "2"
@@ -15,28 +15,8 @@
 		"wide"	"32"
 		"tall"	"32"
 
-		"font" "FogsCrosshairs"
+		"font" "KnucklesCrosshairs"
 		"labelText" "0"
-		"textAlignment" "center"
-
-		"fgcolor" "255 255 255 255"
-	}
-
-	"yahudCrosshairs"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "yahudCrosshairs"
-		"visible" "0"
-		"enabled" "1"
-		"zpos" "2"
-
-		"xpos"	"c-16"
-		"ypos"	"c-16"
-		"wide"	"32"
-		"tall"	"32"
-
-		"font" "yahudCrosshairs"
-		"labelText" "f"
 		"textAlignment" "center"
 
 		"fgcolor" "255 255 255 255"
@@ -135,10 +115,10 @@
 
 	/////ANIMATED CROSSHAIR START/////
 
-	"FogsCrosshairsAnimated"
+	"KnucklesCrosshairsAnimated"
 	{
 		"controlName" "CExLabel"
-		"fieldName" "FogsCrosshairsAnimated"
+		"fieldName" "KnucklesCrosshairsAnimated"
 		"visible" "0"
 		"enabled" "1"
 		"zpos" "-5"
@@ -148,28 +128,8 @@
 		"wide"	"32"
 		"tall"	"32"
 
-		"font" "FogsCrosshairs"
+		"font" "Knuckles Crosshairs"
 		"labelText" "0"
-		"textAlignment" "center"
-
-		"fgcolor" "255 255 255 255"
-	}
-
-	"yahudCrosshairsAnimated"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "yahudCrosshairsAnimated"
-		"visible" "0"
-		"enabled" "1"
-		"zpos" "2"
-
-		"xpos"	"c-16"
-		"ypos"	"c-16"
-		"wide"	"32"
-		"tall"	"32"
-
-		"font" "yahudCrosshairs"
-		"labelText" "f"
 		"textAlignment" "center"
 
 		"fgcolor" "255 255 255 255"

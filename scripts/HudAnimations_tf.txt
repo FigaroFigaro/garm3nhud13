@@ -788,16 +788,14 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	Animate yahudCrosshairsAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
-	Animate FogsCrosshairsAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
+	Animate KnucklesCrosshairsAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate xHairDotAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairNormalAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairRequestAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairCircleAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 	Animate CrossHairDotOutlineAnimated  FgColor		"Garm3nRed"	         Linear 0.0 0.00001
 
-	Animate yahudCrosshairsAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
-	Animate FogsCrosshairsAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
+	Animate KnucklesCrosshairsAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
 	Animate xHairDotAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
 	Animate CrossHairNormalAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
 	Animate CrossHairRequestAnimated  FgColor		"Garm3nxHair"	         Linear 0.10 0.10001
