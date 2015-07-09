@@ -21,6 +21,13 @@
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
+	"TrainingButton"
+	{
+		"label" "Matchmaking" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+	}
 	"CreateServerButton"
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
@@ -53,13 +60,6 @@
 		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_practice"
-	}
-	"TrainingButton"
-	{
-		"label" "#TF_Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
 	}
 	"SettingsButton"
 	{

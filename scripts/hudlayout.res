@@ -5,7 +5,7 @@
 	"KnucklesCrosshairs"
 	{
 		"controlName" "CExLabel"
-		"fieldName" "Knuckles Crosshairs"
+		"fieldName" "KnucklesCrosshairs"
 		"visible" "0"
 		"enabled" "1"
 		"zpos" "2"
@@ -15,8 +15,8 @@
 		"wide"	"32"
 		"tall"	"32"
 
-		"font" "KnucklesCrosshairs"
-		"labelText" "0"
+		"font" "Knuckles Crosshairs"
+		"labelText" "a"
 		"textAlignment" "center"
 
 		"fgcolor" "255 255 255 255"
@@ -129,7 +129,7 @@
 		"tall"	"32"
 
 		"font" "Knuckles Crosshairs"
-		"labelText" "0"
+		"labelText" "a"
 		"textAlignment" "center"
 
 		"fgcolor" "255 255 255 255"
