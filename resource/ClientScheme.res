@@ -3453,7 +3453,7 @@ Scheme
 			"1"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"9"
+				"tall"		"15"
 				"antialias"		"1"
 			}
 		}

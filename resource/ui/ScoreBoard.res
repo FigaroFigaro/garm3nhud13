@@ -949,10 +949,10 @@
 				"visible"		"0"
 			}
 		}
-		"Kills"
+		"KillsEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"KillsEdit"
 			"font"			"Medium41"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
@@ -995,10 +995,10 @@
 				"visible"		"0"
 			}
 		}
-		"Deaths"
+		"DeathsEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"DeathsEdit"
 			"font"			"Medium41"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
@@ -1019,10 +1019,10 @@
 				"tall"		"41"
 			}
 		}
-		"AssistsLabel"
+		"AssistsLabelEdit"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"AssistsLabel"
+			"fieldName"		"AssistsLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1042,13 +1042,13 @@
 				"ypos"		"r172"
 			}
 		}
-		"Assists"
+		"AssistsEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"AssistsEdit"
 			"font"			"Medium9"
 			"labelText"		"%assists%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c-220"
 			"ypos"			"r85"
@@ -1065,10 +1065,10 @@
 				"ypos"		"r172"
 			}
 		}
-		"CapturesLabel"
+		"CapturesLabelEdit"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"CapturesLabel"
+			"fieldName"		"CapturesLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"fgcolor"			"White" // Garm3nMenu
@@ -1088,13 +1088,13 @@
 				"ypos"		"r162"
 			}
 		}
-		"Captures"
+		"CapturesEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"CapturesEdit"
 			"font"			"Medium9"
 			"labelText"		"%captures%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c-220"
 			"ypos"			"r75"
@@ -1111,10 +1111,10 @@
 				"ypos"		"r162"
 			}
 		}
-		"DefensesLabel"
+		"DefensesLabelEdit"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"DefensesLabel"
+			"fieldName"		"DefensesLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1134,13 +1134,13 @@
 				"ypos"		"r152"
 			}
 		}
-		"Defenses"
+		"DefensesEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"DefensesEdit"
 			"font"			"Medium9"
 			"labelText"		"%defenses%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c-105"
 			"ypos"			"r90"
@@ -1157,10 +1157,10 @@
 				"ypos"		"r152"
 			}
 		}
-		"DominationLabel"
+		"DominationLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"DominationLabel"
+			"fieldName"		"DominationLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1180,13 +1180,13 @@
 				"ypos"		"r142"
 			}
 		}
-		"Domination"
+		"DominationEdit"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"DominationEdit"
 			"font"			"Medium9"
 			"labelText"		"%dominations%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
 			"ypos"			"r80"
@@ -1203,10 +1203,10 @@
 				"ypos"		"r142"
 			}
 		}
-		"RevengeLabel"
+		"RevengeLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"RevengeLabel"
+			"fieldName"		"RevengeLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1226,13 +1226,13 @@
 				"ypos"		"r132"
 			}
 		}
-		"Revenge"
+		"RevengeEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"RevengeEdit"
 			"font"			"Medium9"
 			"labelText"		"%Revenge%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c10"
 			"ypos"			"r90"
@@ -1249,10 +1249,10 @@
 				"ypos"		"r132"
 			}
 		}
-		"DestructionLabel"
+		"DestructionLabelEdit"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"DestructionLabel"
+			"fieldName"		"DestructionLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1272,13 +1272,13 @@
 				"ypos"		"r122"
 			}
 		}
-		"Destruction"
+		"DestructionEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"DestructionEdit"
 			"font"			"Medium9"
 			"labelText"		"%destruction%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c10"
 			"ypos"			"r80"
@@ -1295,10 +1295,10 @@
 				"ypos"		"r122"
 			}
 		}
-		"HealingLabel"
+		"HealingLabelEdit"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"HealingLabel"
+			"fieldName"		"HealingLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1318,13 +1318,13 @@
 				"ypos"		"r172"
 			}
 		}		
-		"Healing"
+		"HealingEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"HealingEdit"
 			"font"			"Medium9"
 			"labelText"		"%healing%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c125"
 			"ypos"			"r90"
@@ -1342,10 +1342,10 @@
 				"wide"		"163"
 			}
 		}
-		"InvulnLabel"
+		"InvulnLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"InvulnLabel"
+			"fieldName"		"InvulnLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1365,13 +1365,13 @@
 				"ypos"		"r162"
 			}
 		}
-		"Invuln"
+		"InvulnEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"InvulnEdit"
 			"font"			"Medium9"
 			"labelText"		"%invulns%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c125"
 			"ypos"			"r80"
@@ -1389,10 +1389,10 @@
 				"wide"		"163"
 			}
 		}
-		"HeadshotsLabel"
+		"HeadshotsLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"HeadshotsLabel"
+			"fieldName"		"HeadshotsLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1412,13 +1412,13 @@
 				"ypos"		"r152"
 			}
 		}
-		"Headshots"
+		"HeadshotsEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"HeadshotsEdit"
 			"font"			"Medium9"
 			"labelText"		"%headshots%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c240"
 			"ypos"			"r90"
@@ -1436,10 +1436,10 @@
 				"wide"		"163"
 			}
 		}
-		"BackstabsLabel"
+		"BackstabsLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"BackstabsLabel"
+			"fieldName"		"BackstabsLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1459,13 +1459,13 @@
 				"ypos"		"r142"
 			}
 		}
-		"Backstabs"
+		"BackstabsEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"BackstabsEdit"
 			"font"			"Medium9"
 			"labelText"		"%backstabs%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c240"
 			"ypos"			"r80"
@@ -1483,10 +1483,10 @@
 				"wide"		"163"
 			}
 		}
-		"TeleportsLabel"
+		"TeleportsLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"TeleportsLabel"
+			"fieldName"		"TeleportsLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1506,13 +1506,13 @@
 				"ypos"		"r132"
 			}
 		}
-		"Teleports"
+		"TeleportsEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"TeleportsEdit"
 			"font"			"Medium9"
 			"labelText"		"%teleports%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c-335"
 			"ypos"			"r85"
@@ -1530,10 +1530,10 @@
 				"wide"		"163"
 			}
 		}
-		"BonusLabel"
+		"BonusLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"BonusLabel"
+			"fieldName"		"BonusLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1553,13 +1553,13 @@
 				"ypos"		"r122"
 			}
 		}
-		"Bonus"
+		"BonusEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"BonusEdit"
 			"font"			"Medium9"
 			"labelText"		"%bonus%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"
 			"xpos"			"c-335"
 			"ypos"			"r75"
@@ -1577,10 +1577,10 @@
 				"wide"		"163"
 			}
 		}
-		"SupportLabel"
+		"SupportLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"SupportLabel"
+			"fieldName"		"SupportLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_Scoreboard_Support"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1602,13 +1602,13 @@
 				"ypos"		"r112"
 			}
 		}
-		"Support"
+		"SupportEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
+			"fieldName"		"SupportEdit"
 			"font"			"Medium9"
 			"labelText"		"%support%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"		
 			"xpos"			"c-220"	
 			"ypos"			"r95"
@@ -1628,10 +1628,10 @@
 				"wide"		"163"
 			}
 		}
-		"DamageLabel"
+		"DamageLabelEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"DamageLabel"
+			"fieldName"		"DamageLabelEdit"
 			"font"			"Medium9"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"fgcolor"		"White" // Garm3nMenu
@@ -1653,13 +1653,13 @@
 				"ypos"		"r112"
 			}
 		}
-		"Damage"
+		"DamageEdit"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"DamageEdit"
 			"font"			"Medium9"
 			"labelText"		"%damage%"
-			"fgcolor"		"Garm3nMenu"
+			"fgcolor"		"White"
 			"textAlignment"	"east"		
 			"xpos"			"c-334"	
 			"ypos"			"r95"
