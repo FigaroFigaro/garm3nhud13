@@ -370,7 +370,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_MvM_PlayWithFriendsExplanation"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -429,7 +429,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsCompetitiveExplanationLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_Matchmaking_CompetitiveExplanation"
 			"textAlignment"	"north-west"
 			"xpos"			"10"

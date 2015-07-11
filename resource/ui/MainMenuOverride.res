@@ -173,7 +173,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/background_upward"
+		"image"			""
 		"scaleImage"	"1"
 		
 		if_halloween_0
