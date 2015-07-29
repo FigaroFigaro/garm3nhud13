@@ -38,10 +38,10 @@
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"teambg_2"			"../hud/color_panel_blu"
+		"teambg_2_lodef"	"../hud/color_panel_blu"
+		"teambg_3"			"../hud/color_panel_red"
+		"teambg_3_lodef"	"../hud/color_panel_red"
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
@@ -87,10 +87,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"c139"
-		"ypos"			"r78"
+		"xpos"			"c138"
+		"ypos"			"r77"
 		"wide"			"50"
-		"tall"			"50"
+		"tall"			"51"
 		"visible"			"1"
 		"enabled"			"1"	
 		"HealthBonusPosAdj"	"10"

@@ -82,7 +82,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999 "	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"1"		
 		"wide"			"109"
 		"tall"			"50"
