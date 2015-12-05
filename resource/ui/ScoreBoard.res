@@ -13,11 +13,11 @@
 		"enabled"			"1"
 		"medal_width"		"15"
 		"avatar_width"		"57"
-		"name_width"		"70"
+		"name_width"		"55"
 		"status_width"		"15"
 		"nemesis_width"		"15"
 		"class_width"		"15"
-		"score_width"		"25"
+		"score_width"		"23"
 		"ping_width"		"23"
 	}
 	"MainBG"

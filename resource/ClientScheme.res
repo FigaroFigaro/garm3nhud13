@@ -3442,8 +3442,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"9"
+				"name"		"Open Sans"
+				"tall"		"12"
 				"antialias"	"1"
 			}
 		}
@@ -3452,8 +3452,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"15"
+				"name"		"Open Sans"
+				"tall"		"18"
 				"antialias"		"1"
 			}
 		}
@@ -3804,7 +3804,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Open Sans"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -3815,7 +3815,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Open Sans"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3825,7 +3825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Open Sans"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -3838,7 +3838,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Open Sans"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3946,7 +3946,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Open Sans"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -3957,7 +3957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Open Sans"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -6011,6 +6011,11 @@ Scheme
 		{
 			"font" "resource/fonts/Crosshairs/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
-		}	
+		}
+		"17" 
+		{
+			"font" "resource/fonts/Open Sans/OpenSans-Regular.ttf"
+			"name" "Open Sans"
+		}		
 	}
 }
