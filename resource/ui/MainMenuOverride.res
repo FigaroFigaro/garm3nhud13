@@ -192,14 +192,14 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		if_eotl_launch
- 		{
- 			"image"		"../console/title_eotl01"
- 		}
-		if_operation
-		{
-			"image"		"../console/title_summer_operation_2015"
-		}
+		//if_eotl_launch
+ 		//{
+ 		//	"image"		"../console/title_eotl01"
+ 		//}
+		//if_operation
+		//{
+		//	"image"		"../console/title_summer_operation_2015"
+		//}
 	}
 
 	"MainBG"
@@ -2123,7 +2123,7 @@
 		}
 	}
 
-	"TrainingButton"
+	"TrainingButton" // Matchmaking Button
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
