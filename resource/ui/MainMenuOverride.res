@@ -1378,7 +1378,7 @@
 		"navUp"			"PlayPVEButton"
 		"navDown"		"CharacterSetupButton"
 		"navLeft"		"ServerBrowserButton"
-		"navRight"		"TrainingButton"
+		"navRight"		"MatchmakingButton"
 		"navToRelay"	"SubButton"
 		
 		if_competitive
@@ -2123,10 +2123,10 @@
 		}
 	}
 
-	"TrainingButton" // Matchmaking Button
+	"MatchmakingButton" // Matchmaking Button
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"TrainingButton"
+		"fieldname"		"MatchmakingButton"
 		"xpos"			"0"
 		"ypos"			"r367"
 		"zpos"			"11"
@@ -2408,7 +2408,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"TrainingButton"
+		"navUp"			"MatchmakingButton"
 		"navDown"		"SteamWorkshopButton"
 		"navLeft"		"CharacterSetupButton"
 		"navRight"		"Notifications_ShowButtonPanel"
