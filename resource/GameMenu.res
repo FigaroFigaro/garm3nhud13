@@ -21,12 +21,12 @@
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
-	"TrainingButton"
+	"MatchmakingButton"
 	{
-		"label" "Matchmaking" 
+		"label" "Competitive Matchmaking" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"CreateServerButton"
 	{
