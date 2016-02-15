@@ -11,15 +11,18 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		"medal_width"		"15"
-		"avatar_width"		"57"
-		"name_width"		"60"
-		"name_width_minmode""40"
+		"medal_width"		"14"
+		"avatar_width"		"50"
+		"name_width"		"0"
+ 		"name_width_short"	"75"
+ 		"spacer"			"5"
 		"status_width"		"15"
 		"nemesis_width"		"15"
-		"class_width"		"15"
-		"score_width"		"25"
-		"ping_width"		"23"
+		"class_width"		"20"
+		"score_width"		"20"
+		"ping_width"		"20"
+		"killstreak_width"	"15"
+ 		"killstreak_image_width" "15"
 	}
 	"MainBG"
 	{
@@ -441,12 +444,12 @@
 			"textAlignment"	"center"
 		}
 	}
-	"ServerTimeLeft" 
+	"ServerTimeLeftValue" 
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ServerTimeLeft"
+		"fieldName"		"ServerTimeLeftValue"
 		"font"			"Book19"
-		"labelText"		"%servertimeleft%"
+		"labelText"		"%servertime%"
 		"textAlignment" 	"west"
 		"fgcolor"			"White"
 		"xpos"			"20"
@@ -458,6 +461,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"linegap"		"0"
+ 		"show_columns"	"0"		
 
 		if_mvm
 		{
