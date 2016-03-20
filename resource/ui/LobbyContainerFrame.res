@@ -44,7 +44,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"fillcolor"		"Garm3nMenu"
 		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
@@ -58,7 +58,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"		"Garm3nMenu"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -137,6 +137,11 @@
 		"NavUp"			"PlayNowButton"
 		"NavRight"		"LearnMoreButton"
 
+		"BgColor" "Garm3nMenu"		
+		"defaultBgColor_override" "Garm3nMenu"
+		"armedBgColor_override" "Garm3nArmedText"
+		"depressedBgColor_override" "0 0 0 0"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -195,6 +200,11 @@
 		"NavLeft"		"BackButton"
 		"NavRight"		"NextButton"
 
+		"BgColor" "Garm3nMenu"		
+		"defaultBgColor_override" "Garm3nMenu"
+		"armedBgColor_override" "Garm3nArmedText"
+		"depressedBgColor_override" "0 0 0 0"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -222,6 +232,11 @@
 		"NavUp"			"StartPartyButton"
 		"NavDown"		"LearnMoreButton"
 		"NavLeft"		"LearnMoreButton"
+
+		"BgColor" "Garm3nMenu"		
+		"defaultBgColor_override" "Garm3nMenu"
+		"armedBgColor_override" "Garm3nArmedText"
+		"depressedBgColor_override" "0 0 0 0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -256,6 +271,11 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"BgColor" "Garm3nMenu"		
+		"defaultBgColor_override" "Garm3nMenu"
+		"armedBgColor_override" "Garm3nArmedText"
+		"depressedBgColor_override" "0 0 0 0"
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -310,6 +330,11 @@
 		"NavDown"		"LearnMoreButton"
 		"NavLeft"		"PlayNowButton"
 		"NavRight"		"StartPartyButton"
+
+		"BgColor" "Garm3nMenu"		
+		"defaultBgColor_override" "Garm3nMenu"
+		"armedBgColor_override" "Garm3nArmedText"
+		"depressedBgColor_override" "0 0 0 0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -413,6 +438,11 @@
 		"NavUp"			"Sheet"
 		"NavDown"		"NextButton"
 		"NavLeft"		"PracticeButton"
+
+		"BgColor" "Garm3nMenu"		
+		"defaultBgColor_override" "Garm3nMenu"
+		"armedBgColor_override" "Garm3nArmedText"
+		"depressedBgColor_override" "0 0 0 0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
