@@ -1151,23 +1151,18 @@
 		}
 	}
 
-	"PlayCompetitiveButton"
+	"CompetitiveButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-285"
-		"ypos"			"180"
+		"fieldname"		"CompetitiveButton"
+		"xpos"			"0"
+		"ypos"			"r428"
 		"zpos"			"11"
-		"wide"			"270"
-		"tall"			"36"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"200"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-
-		"navUp"			"PlayPVEButton"
-		"navDown"		"ServerBrowserButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1175,16 +1170,16 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
+			"wide"			"200"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"Medium14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1192,44 +1187,31 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
+			"border_default"	""
+			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"FgColor" "Garm3nMenu"			
+			"defaultFgColor_override" "Garm3nMenu"
+			"armedFgColor_override" "Garm3nArmedText"
+			"depressedFgColor_override" "Garm3nMenu"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"0 0 0 0"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-
-		"CompetitiveBetaImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldname"		"CompetitiveBetaImage"
-			"xpos"			"223"
-			"ypos"			"3"
-			"zpos"			"12"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"1"
-			"image"			"beta"
-			"scaleImage"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"0"
+			}		
 		}
 	}
 
@@ -1238,7 +1220,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"0"
-		"ypos"			"r417"
+		"ypos"			"r408"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1306,7 +1288,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
 		"xpos"			"0"
-		"ypos"			"r417"
+		"ypos"			"r408"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1368,7 +1350,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"0"
-		"ypos"			"r397"
+		"ypos"			"r388"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1378,13 +1360,13 @@
 		"navUp"			"PlayPVEButton"
 		"navDown"		"CharacterSetupButton"
 		"navLeft"		"ServerBrowserButton"
-		"navRight"		"MatchmakingButton"
+		"navRight"		"TrainingButton"
 		"navToRelay"	"SubButton"
 		
-		if_competitive
-		{
-			"ypos"		"219"
-		}
+		//if_competitive
+		//{
+		//	"ypos"		"r397"
+		//}
 
 		"SubButton"
 		{
@@ -2123,10 +2105,10 @@
 		}
 	}
 
-	"MatchmakingButton" // Matchmaking Button
+	"TrainingButton" 
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MatchmakingButton"
+		"fieldname"		"TrainingButton"
 		"xpos"			"0"
 		"ypos"			"r367"
 		"zpos"			"11"
@@ -2408,7 +2390,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"MatchmakingButton"
+		"navUp"			"TrainingButton"
 		"navDown"		"SteamWorkshopButton"
 		"navLeft"		"CharacterSetupButton"
 		"navRight"		"Notifications_ShowButtonPanel"

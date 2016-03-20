@@ -14,6 +14,13 @@
 		"subimage" "glyph_practice"
 		"OnlyInGame" "1"
 	}
+	"CompetitiveButton"
+	{
+		"label" "Matchmaking" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "0"
+	}
 	"PlayPVEButton"
 	{
 		"label" "#MMenu_PlayCoop" 
@@ -21,10 +28,10 @@
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
-	"MatchmakingButton"
+	"TrainingButton"
 	{
-		"label" "Competitive Matchmaking" 
-		"command" "ladder_ui_show"
+		"label" "Training" 
+		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}
